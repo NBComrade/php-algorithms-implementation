@@ -1,0 +1,29 @@
+{
+    "name": "nbcomrade/php_algorithms_implementation",
+    "description": "Implementation of algorithms on php",
+    "keywords": ["php", "algorithms"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "NBComrade",
+            "email": "bogdannediak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    }
+}
