@@ -9,18 +9,18 @@ PHP >= 7.1
 Installation
 ------------
 
-You can add this library as a local using [composer](https://getcomposer.org/):
+You can use this library using [composer](https://getcomposer.org/):
 
-    composer require nbcomrade/php_algorithms_implementation
+    composer create-project nbcomrade/php_algorithms_implementation
 
-If you want run test:
+Every algorithm implementation has own test. If you want run it:
 ```bash
 $ vendor/bin/phpunit
 ```
 
 Usage
 ------------
-Sandbox file is located in public/index.php directory. Here you can call any function from the library and investigate its behavior.
+If you want make experiments - the sandbox file is located in <span style="color:red">public/index.php</span> file. Here you can call any function from the library and investigate its behavior.
 
 
 License
